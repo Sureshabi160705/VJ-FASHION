@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>VJ FASHION — Contact</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@300;400;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="topbar">Call us: 87229 74436 (Suraj) • 90955 47506 (Banu) &nbsp; • &nbsp; <a href="contact.html">Request a
+      Quote</a></div>
+
+  <header class="header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand" aria-label="VJ FASHION home">
+        <div class="logo">VF</div>
+        <h1>VJ FASHION</h1>
+      </a>
+      <nav class="nav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="machineries.html">Machineries</a>
+        <a href="contact.html">Contact Us</a>
+      </nav>
+      <button id="hambBtn" class="hamburger" aria-label="Open menu" aria-expanded="false" onclick="toggleMobileNav()">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+    </div>
+    <nav id="mobileNav" class="mobile-nav" aria-hidden="true">
+      <div class="container">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="machineries.html">Machineries</a>
+        <a href="contact.html">Contact Us</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section style="padding:1rem 0;">
+      <h2>Contact Us</h2>
+      <p class="lead">Have a question or want to request a quote? Send us a message.</p>
+      <div style="display:grid;gap:1rem;grid-template-columns:1fr 420px;">
+        <div>
+          <div style="background:white;padding:1rem;border-radius:12px;box-shadow:var(--card-shadow);">
+            <h3 style="margin-top:0">Our Address</h3>
+            <p style="margin:0 0 .5rem 0">Company Name: <b>VJ FASHION</b></p>
+            <p style="margin:0 0 .5rem 0">No. 23 Textile Street, Kumarapalayam, Tamil Nadu, India</p>
+            <p style="margin:0 0 .5rem 0"><strong>Phone 1:</strong> 87229 74436 (Suraj)<br><strong>Phone 2:</strong> 90955
+              47506 (Banu)</p>
+            <p style="margin:0"><strong>Email:</strong> vjfashion87@gmail.com</p>
+
+            <div style="margin-top:1rem;border-radius:10px;overflow:hidden;">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3910.5553638456304!2d77.6924264431!3d11.439783951879276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba969ddfedffb6b%3A0xb4b07d1110f3147c!2svj%20fashion!5e0!3m2!1sen!2sin!4v1765550739367!5m2!1sen!2sin"
+                width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade" title="VJ FASHION location on map">
+              </iframe>
+
+            </div>
+
+          </div>
+          <div style="margin-top:1rem;">
+            <a class="btn" href="index.html">Back to Home</a>
+          </div>
+        </div>
+
+        <div>
+          <div class="form-card" aria-labelledby="contact-form-heading">
+            <h3 id="contact-form-heading">Send us a message</h3>
+            <form action="https://formcarry.com/s/YOUR_FORM_ID" method="POST" novalidate>
+              <div class="form-row">
+                <div style="flex:1">
+                  <label for="name">Name</label>
+                  <input class="input" id="name" name="name" type="text" placeholder="Your name" required />
+                </div>
+                <div style="flex:1">
+                  <label for="phone">Phone Number</label>
+                  <input class="input" id="phone" name="phone" type="tel" placeholder="+91 9XXXXXXXXX" required />
+                </div>
+              </div>
+
+              <div style="margin-top:.75rem;">
+                <label for="email">Email</label>
+                <input class="input" id="email" name="email" type="email" placeholder="you@example.com" required />
+              </div>
+
+              <div style="margin-top:.75rem;">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Write your message..." required></textarea>
+              </div>
+
+              <div style="margin-top:.9rem;display:flex;gap:.6rem;align-items:center;">
+                <button type="submit" class="btn">Send Message</button>
+                <button type="reset" class="btn secondary">Reset</button>
+              </div>
+            </form>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <section class="bottom-info container" aria-label="Company highlights">
+    <div class="info-card">
+      <h4>Quality & Craftsmanship</h4>
+      <p>Attention to detail and premium fabrics ensure garments that last and look great. Our skilled team inspects
+        every piece before it leaves the floor.</p>
+    </div>
+    <div class="info-card">
+      <h4>Sustainable Practices</h4>
+      <p>We follow responsible sourcing and waste reduction practices — from fabric cutting optimization to eco-aware
+        packaging.</p>
+    </div>
+  </section>
+
+  <section class="container" aria-label="social proof">
+    <div class="social-proof">
+      <div class="proof-item"><img
+          src="https://static.vecteezy.com/system/resources/thumbnails/042/328/652/small/trusted-design-logo-template-illustration-vector.jpg"
+          alt="icon"> Trusted since 1998</div>
+      <div class="proof-item"><img
+          src="https://img.freepik.com/premium-vector/iso-certified-company-emblem-design_1135235-2279.jpg?semt=ais_hybrid&w=740&q=80"
+          alt="icon"> ISO Certified</div>
+      <div class="proof-item"><img
+          src="https://www.shutterstock.com/image-vector/customer-loyalty-retention-icon-star-600nw-2176848003.jpg"
+          alt="icon"> 1000+ Orders</div>
+    </div>
+  </section>
+
+  <div class="cta-sticky"><a class="btn" href="contact.html" aria-label="Request Quote">Request Quote</a></div>
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div>&copy; <span id="year"></span> VJ FASHION. All rights reserved.</div>
+      <div class="badges">
+        <div class="proof-item" style="background:transparent;box-shadow:none;font-weight:600;color:var(--muted-text)">
+          Trusted vendor</div>
+        <div class="proof-item" style="background:transparent;box-shadow:none;font-weight:600;color:var(--muted-text)">
+          Fast turnaround</div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    function toggleMobileNav() {
+      const panel = document.getElementById('mobileNav');
+      if (!panel) return;
+      panel.classList.toggle('open');
+      const btn = document.getElementById('hambBtn');
+      btn.setAttribute('aria-expanded', panel.classList.contains('open'));
+    }
+    document.addEventListener('DOMContentLoaded', () => {
+      const y = document.getElementById('year');
+      if (y) y.textContent = new Date().getFullYear();
+    });
+  </script>
+
+</body>
+
+</html>

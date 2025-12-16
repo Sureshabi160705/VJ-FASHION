@@ -80,4 +80,4 @@ a::after{content:"";position:absolute;left:0;bottom:-4px;height:2px;width:0;back
 a:hover::after{width:100%}
 @keyframes fadeUp{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
 @media (max-width:1000px){ .product-grid{grid-template-columns:repeat(2,1fr)} .hero-inner{grid-template-columns:1fr} .nav{display:none} .hamburger{display:block} .mobile-nav{display:none} .mobile-nav.open{display:block} .bottom-info{grid-template-columns:1fr} }
-@media (max-width:600px){ .product-grid{grid-template-columns:1fr} .brand h1{display:none} .collection-list li{flex:1 1 100%} .container{padding:.75rem} .hero-text h1{font-size:1.6rem} .product-thumb{height:180px} }
+@media (max-width:600px){ .product-grid{grid-template-columns:1fr} .brand h1{display:block} .collection-list li{flex:1 1 100%} .container{padding:.75rem} .hero-text h1{font-size:1.6rem} .product-thumb{height:180px} }

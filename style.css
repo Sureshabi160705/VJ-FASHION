@@ -81,3 +81,8 @@ a:hover::after{width:100%}
 @keyframes fadeUp{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
 @media (max-width:1000px){ .product-grid{grid-template-columns:repeat(2,1fr)} .hero-inner{grid-template-columns:1fr} .nav{display:none} .hamburger{display:block} .mobile-nav{display:none} .mobile-nav.open{display:block} .bottom-info{grid-template-columns:1fr} }
 @media (max-width:600px){ .product-grid{grid-template-columns:1fr} .brand h1{display:block} .collection-list li{flex:1 1 100%} .container{padding:.75rem} .hero-text h1{font-size:1.6rem} .product-thumb{height:180px} }
+
+/* WhatsApp sticky button */
+.whatsapp-sticky{position:fixed;left:20px;bottom:20px;z-index:95}
+.whatsapp-btn{background:#25D366;color:#fff;border-radius:28px;padding:.6rem .9rem;text-decoration:none;font-weight:700;box-shadow:0 12px 30px rgba(37,211,102,0.12);display:inline-block}
+.whatsapp-btn:hover{filter:brightness(.95);transform:translateY(-2px)}

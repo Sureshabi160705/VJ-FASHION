@@ -41,7 +41,10 @@
       gap: .75rem;
       align-items: stretch;
     }
-    .form-card .form-row > div { flex: 1; }
+
+    .form-card .form-row>div {
+      flex: 1;
+    }
 
     /* Inputs should fill container */
     .form-card .input,
@@ -59,13 +62,20 @@
       flex-wrap: wrap;
       margin-top: 0.6rem;
     }
-    .social-proof .proof-item img { height: 28px; width: auto; object-fit: contain; display: block; }
+
+    .social-proof .proof-item img {
+      height: 28px;
+      width: auto;
+      object-fit: contain;
+      display: block;
+    }
 
     /* Small screens: single column, stacked form fields */
     @media (max-width: 900px) {
       .contact-grid {
         grid-template-columns: 1fr;
       }
+
       .map-wrap iframe {
         height: 260px;
       }
@@ -75,49 +85,65 @@
       }
 
       /* Make topbar text wrap nicely */
-      .topbar { font-size: 0.95rem; padding: .45rem .6rem; line-height: 1.25; }
+      .topbar {
+        font-size: 0.95rem;
+        padding: .45rem .6rem;
+        line-height: 1.25;
+      }
 
       /* Slightly reduce CTA sticky size so it doesn't overlap content */
-      .cta-sticky { right: 12px; bottom: 12px; }
+      .cta-sticky {
+        right: 12px;
+        bottom: 12px;
+      }
     }
 
     /* Very small phones */
     @media (max-width: 420px) {
-      .map-wrap iframe { height: 220px; }
-      .social-proof .proof-item img { height: 22px; }
-      .topbar { font-size: 0.9rem; }
+      .map-wrap iframe {
+        height: 220px;
+      }
+
+      .social-proof .proof-item img {
+        height: 22px;
+      }
+
+      .topbar {
+        font-size: 0.9rem;
+      }
     }
   </style>
 </head>
 
 <body>
-  <div class="topbar">Call us: 87229 74436 (Suraj) • 90955 47506 (Banu) &nbsp; • &nbsp; <a href="contact.html">Request a Quote</a></div>
+  <div class="topbar">Call us: 87229 74436 (Suraj) • 90955 47506 (Banu) &nbsp; • &nbsp; <a href="contact.html">Request a
+      Quote</a></div>
 
   <header class="header">
     <div class="container header-inner">
       <a href="index.html" class="brand" aria-label="VJ FASHION home">
-      <img src="assets/logo.jpg" alt="VJ FASHION logo" class="logo">
-      <h1>Manufacturing exports garment & domestic</h1>
-    </a>
+        <img src="assets/logo.jpg" alt="VJ FASHION logo" class="logo">
+        <h1>Manufacturing exports garment & domestic</h1>
+      </a>
 
       <nav class="nav" aria-label="Main navigation">
-      <a href="index.html">Home</a>
-      <a href="about.html">About Us</a>
-      <a href="contact.html">Contact Us</a>
-    </nav>
-    <button id="hambBtn" class="hamburger" aria-label="Open menu" aria-expanded="false" onclick="toggleMobileNav()">
-      <span class="bar"></span>
-      <span class="bar"></span>
-      <span class="bar"></span>
-    </button>
-  </div>
-  <nav id="mobileNav" class="mobile-nav" aria-hidden="true">
-    <div class="container">
-      <a href="index.html">Home</a>
-      <a href="about.html">About Us</a>
-      <a href="contact.html">Contact Us</a>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact Us</a>
+      </nav>
+      <button id="hambBtn" class="hamburger" aria-label="Open menu" aria-expanded="false" onclick="toggleMobileNav()">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
     </div>
-  </nav>
+    <nav id="mobileNav" class="mobile-nav" aria-hidden="true">
+      <div class="container">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact Us</a>
+      </div>
+    </nav>
   </header>
 
   <main class="container">
@@ -138,6 +164,10 @@
               <strong>Phone 2:</strong> 90955 47506 (Banu)
             </p>
             <p style="margin:0"><strong>Email:</strong> vjfashion87@gmail.com</p>
+            <a href="https://www.instagram.com/vj_fashion_.87?igsh=MWs1cjhubG9iYWhkaw==" class="instagram-btn"
+              target="_blank" rel="noopener">
+              Follow us on Instagram
+            </a>
 
             <!-- Map (keeps same rounded container and responsive iframe) -->
             <div class="map-wrap" style="margin-top:1rem;border-radius:10px;overflow:hidden;">
@@ -212,15 +242,20 @@
   <!-- Social proof (made responsive via .social-proof rules above) -->
   <section class="container" aria-label="social proof">
     <div class="social-proof">
-      <div class="proof-item"><img src="https://static.vecteezy.com/system/resources/thumbnails/042/328/652/small/trusted-design-logo-template-illustration-vector.jpg" alt="icon"> Trusted since 2018</div>
-      <div class="proof-item"><img src="https://www.shutterstock.com/image-vector/customer-loyalty-retention-icon-star-600nw-2176848003.jpg" alt="icon"> 1000+ Orders</div>
+      <div class="proof-item"><img
+          src="https://static.vecteezy.com/system/resources/thumbnails/042/328/652/small/trusted-design-logo-template-illustration-vector.jpg"
+          alt="icon"> Trusted since 2018</div>
+      <div class="proof-item"><img
+          src="https://www.shutterstock.com/image-vector/customer-loyalty-retention-icon-star-600nw-2176848003.jpg"
+          alt="icon"> 1000+ Orders</div>
     </div>
   </section>
 
   <div class="cta-sticky"><a class="btn" href="contact.html" aria-label="Request Quote">Request Quote</a></div>
 
   <div class="whatsapp-sticky">
-    <a class="btn whatsapp-btn" href="https://wa.me/919095547506?text=Hii%20Sir..!" target="_blank" rel="noopener" aria-label="WhatsApp Message">WhatsApp Us</a>
+    <a class="btn whatsapp-btn" href="https://wa.me/919095547506?text=Hii%20Sir..!" target="_blank" rel="noopener"
+      aria-label="WhatsApp Message">WhatsApp Us</a>
   </div>
 
   <footer class="footer">
@@ -252,5 +287,3 @@
 </body>
 
 </html>
-
-
